@@ -1,5 +1,7 @@
 def fac(n)
-  sum = 1
-  sum.upto(n) { |i| sum *= i }
-  sum
+  if (n > 1)
+    n * fac(n - 1)
+  else
+    1
+  end
 end
