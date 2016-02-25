@@ -1,5 +1,5 @@
-def fac(n)
+def fac(number)
   sum = 1
-  sum.upto(n) { |i| sum *= i }
+  sum.upto(number) { |i| sum *= i }
   sum
 end
